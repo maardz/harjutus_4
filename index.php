@@ -66,7 +66,11 @@
 	    echo "<br>";
 	    echo $mixed[4][2];
 	    echo "<br>";
-	    
+	    $mixed = array(6, "rebane", "koer", 5.5, array("x", "y", "z"));
+	    $mixed[2] = "kass";
+	    $mixed[5] = "kass";
+	    $mixed[] = "hobune";
+	    echo '<pre>',print_r($mixed),'</pre>';
 	    
 	?>
 
