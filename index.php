@@ -44,5 +44,31 @@
 	echo "<br>";
 	 ?><br>
 
+	<h2>Jadad (array)</h2>
+
+	<?php
+	    $numbers = array(4,8,15,16,23,42);
+	    echo $numbers[0];
+	    echo "<br>";
+	    echo $numbers[1];
+	    echo "<br>";
+	    echo $numbers[2];
+	    echo "<br>";
+	    echo $numbers[3];
+	    echo "<br>";
+	    echo $numbers[4];
+	    echo "<br>";
+	    echo $numbers[5];
+	    echo "<br>";
+
+	     $mixed = array(6, "rebane", "koer", 5.5, array("x", "y", "z"));
+	    echo $mixed[1];
+	    echo "<br>";
+	    echo $mixed[4][2];
+	    echo "<br>";
+	    
+	    
+	?>
+
 </body>
 </html>
