@@ -23,9 +23,26 @@
 		echo ceil($float);
 		echo "<br>";
 		echo floor($float);
-		
-
 	?><br>
+
+	<h2>Andmetüübi funktsioonid</h2>
+
+	<?php 
+	$float = 3.14;
+	$integer = 3;
+	echo "Kas {$integer} on integer? " . is_int($integer);
+	echo "<br>";
+	echo "Kas {$float} on integer? " . is_int($float);
+	echo "<br>";
+	echo "Kas {$integer} on float? " . is_float($integer);
+	echo "<br>";
+	echo "Kas {$float} on float? " . is_float($float);
+	echo "<br>";
+	echo "Kas {$integer} on numeric? " . is_numeric($integer);
+	echo "<br>";
+	echo "Kas {$float} on numeric? " . is_numeric($float);
+	echo "<br>";
+	 ?><br>
 
 </body>
 </html>
