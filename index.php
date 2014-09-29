@@ -86,7 +86,28 @@
 	$assoc = array("first_name" => "Marge", "last_name" => "Mölder", "e_mail" => "marge.molder@khk.ee");
 	echo "Minu nimi on" . " ". $assoc["first_name"]. " ".$assoc["last_name"]. ".". " ". "Minu email on". " ".$assoc["e_mail"] ;
 	echo "<br>";
-	
+	?>
+
+	<h2>Array functions</h2>
+
+	<?php 
+	$numbers_2 = array(8,23,15,42,16,4);
+	echo count($numbers_2);
+	echo "<br>";
+	echo max($numbers_2);
+	echo "<br>";
+	echo min($numbers_2);
+	echo "<br>";
+	sort($numbers_2);
+    print_r($numbers_2);
+    echo "<br>";
+	rsort($numbers_2);
+    print_r($numbers_2);
+    echo "<br>";
+    $num_string = implode(" ja ", $numbers_2);
+    echo $num_string;
+    echo "<br>";
+    print_r(explode(" ja ", $num_string));
 	?>
 
 </body>
