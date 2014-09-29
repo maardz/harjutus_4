@@ -74,5 +74,20 @@
 	    
 	?>
 
+	<h2>Associative arrays</h2>
+
+	<?php 
+	$assoc = array("first_name" => "Marge", "last_name" => "Mölder");
+	echo $assoc["first_name"];
+	echo "<br>";
+	echo $assoc["last_name"];
+	echo "<br>";
+
+	$assoc = array("first_name" => "Marge", "last_name" => "Mölder", "e_mail" => "marge.molder@khk.ee");
+	echo "Minu nimi on" . " ". $assoc["first_name"]. " ".$assoc["last_name"]. ".". " ". "Minu email on". " ".$assoc["e_mail"] ;
+	echo "<br>";
+	
+	?>
+
 </body>
 </html>
